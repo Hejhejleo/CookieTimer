@@ -1,0 +1,52 @@
+#time{
+    display: block;
+
+}
+
+#holder{
+display: inline;
+    position: fixed;
+    top: 45%;
+    left:45%;
+    padding:0;
+    margin: 0;
+    margin-top: -20px;
+    margin-left: -120px;
+    text-align: center;
+}
+
+
+h1{
+display: inline;
+}
+
+html{
+    overflow: hidden;
+    font-family: 'Poiret One', cursive;
+}
+
+body{
+    overflow: hidden;
+}
+
+button{
+margin: 1em;
+border-color: black;
+background-color: transparent;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Poiret One', cursive;
+    border-width: .5px;
+    outline: none;
+    transition-duration: .05s;
+}
+
+button:hover{
+transform: scale(1.1);
+}
+
+button:active{
+transform: scale(.9);
+background-color: lightgray;
+}
